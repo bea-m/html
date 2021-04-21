@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/hlavni.css">
+    <link rel="stylesheet" href="../css/table.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <title>Tabulky v HTML</title>
+</head>
+
+<body>
+    <header>
+        <h1><i class="material-icons">brush</i> Tabulky v HTML <i class="material-icons">color_lense</i></h1>
+    </header>
+    <div class="rozcestnik">
+        <ul>
+            <li>
+                <a href="../index.html">Hlavní stránka</a>
+            </li>
+            <li>
+                <a href="#">Tabulka</a>
+            </li>
+            <li>
+                <a href="../multimedia/index.html">Multimédia</a>
+            </li>
+            <li>
+                <a href="../galerie/index.html">Galerie</a>
+            </li>
+        </ul>
+    </div>
+    <main>
+        <section>
+            <table border="2" class="tabulka">
+                <caption class="pozadi">Vizitka slavné osobnosti</caption>
+                <thead>
+                    <tr>
+                        <th>Portrét</th>
+                        <th colspan="2">Základní údaje</th>
+                        <th>Významná díla</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td rowspan="3"><img src="../media/alfons-mucha-1906.jpg" alt="Alfons Mucha"></td>
+                        <td colspan="2" class="center">Alfons Mucha</td>
+                        <td rowspan="5">
+                            <ol>
+                                <li><b>Slovanská epopej</b></li>
+                                <ul>
+                                    <li>Slované v pravlasti:
+                                        Mezi turanskou knutou a gótským mečem
+                                    </li>
+                                    <li>
+                                        Přemysl Otakar II., král železný a zlatý:
+                                        Svaz slovanských dynastů
+                                    </li>
+                                    <li>
+                                        Jan Milíč z Kroměříže:
+                                        Klášter z nevěstince
+                                    </li>
+                                    <li>
+                                        Mont Athos:
+                                        Vatikán pravoslavných
+                                    </li>
+                                    <li>
+                                        Apotheosa z dějin Slovanstva:
+                                        Čtyři období Slovanstva ve čtyřech barvách
+                                    </li>
+                                </ul>
+                                <li>Gismonda</li>
+                                <li>Obraz Cirila a Metodeje</li>
+                                <li>Ilustrace pavilonu Bosny a Hercegoviny</li>
+                                <li>Autoportrét Alfonse Muchy</li>
+                            </ol>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="center">24. července 1860</td>
+                        <td class="center">14. července 1939</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" rowspan="2">
+                            <ul>
+                                <li>celým jménem Alfons Maria Mucha byl český <b>malíř</b>, <b>grafik</b> a
+                                    <b>designer</b> v období <b>secese</b>
+                                </li>
+                                <li>narodil se v Ivančicích na Moravě, studoval v Mnichově a Paříži, kde se později
+                                    usadil a začal se živit jako <b>ilustrátor</b> a <b>grafik</b></li>
+                                <li>na přelomu <b>1894 - 1895</b> se proslavil téměř přes noc díky jeho plakátu k
+                                    divadelní hře Gismonda se Sarah Bernhardtovou, se kterou později uzavřel smlouvu na
+                                    dalších šest let
+                                </li>
+                                <li>
+                                    vytvořil velké množství <b>kreseb</b>, <b>pastelových</b> či <b>akvarelových</b>
+                                    studií a designových
+                                    návrhů pro interiéry, užitkové předměty a šperky
+                                </li>
+                                <li>
+                                    životním dílem Muchy je <b>Slovanská epopej</b>, na které pracoval skoro 18 let
+                                </li>
+                                <li>
+                                    20. července 1934 na návrh bývalého francouzského prezidenta Raymonda Poincarého
+                                    povýšen na důstojníka <b>Čestné legie</b>
+                                </li>
+                                <li>
+                                    dne 14. července 1939 umírá na následky zápalu plic
+                                </li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="center">Mucha roku 1906</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="4"><a href="https://cs.wikipedia.org/wiki/Alfons_Mucha">Odkaz na Wikipedii</a></td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+        <section class="pozadi">
+        <section class="znacky">
+            <dl>
+                <dt>table</dt>
+                <dd>umožňuje ohraničení tabulky</dd>
+                <dt>thead</dt>
+                <dd>záhlaví</dd>
+                <dt>tbody</dt>
+                <dd>tělo</dd>
+                <dt>tfoot</dt>
+                <dd>spodní část</dd>
+                <dt>tr</dt>
+                <dd>řada tabulky</dd>
+                <dt>th</dt>
+                <dd>nadpis určité části tabulky</dd>
+                <dt>td</dt>
+                <dd>data určité buňky</dd>
+                <dt>colspan</dt>
+                <dd>rozpětí přes sloupce</dd>
+                <dt>rowspan</dt>
+                <dd>rozpětí přes řádky</dd>
+            </dl>
+        </section>
+    </section>
+    </main>
+    <footer>
+        <hr>
+        <p>&copy;Muchová B. IT1 - 2021</p>
+    </footer>
+</body>
+
+</html>

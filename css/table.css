@@ -1,0 +1,58 @@
+table {
+    border: 3px solid rgb(107, 51, 51);
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 75%;
+}
+
+td, th {
+    padding: 5px 50px;
+}
+
+thead {
+    font-size: large;
+}
+
+thead, tfoot {
+    background-color: #a56f6f;
+    text-align: center;
+}
+
+a, thead, tfoot {
+    color: aliceblue;
+}
+
+
+tbody {
+    background-color: #f0e6e6;
+}
+
+caption {
+    font-size: 200%;
+    color: rgb(107, 51, 51);
+
+}
+
+.tabulka {
+    margin: auto;
+}
+.center {
+    text-align: center;
+}
+
+dt {
+    font-size: xx-large;
+}
+
+.znacky>dl>dt {
+    font-size: 200%;
+    color: rgb(107, 51, 51);
+    text-align: center;
+}
+
+dd {
+    font-size: 175%;
+    color: rgb(19, 12, 12);
+    text-align: center;
+    margin-left: 0;
+}

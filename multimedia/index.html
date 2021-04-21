@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/hlavni.css">
+    <link rel="stylesheet" href="../css/multimedia.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <title>Multimédia v HTML</title>
+</head>
+
+<body>
+    <header>
+        <h1><i class="material-icons">brush</i>Multimédia v HTML<i class="material-icons">color_lense</i></h1>
+    </header>
+    <div class="rozcestnik">
+        <ul>
+            <li>
+                <a href="../index.html">Hlavní stránka</a>
+            </li>
+            <li>
+                <a href="../tabulka/index.html">Tabulka</a>
+            </li>
+            <li>
+                <a href="#">Multimédia</a>
+            </li>
+            <li>
+                <a href="../galerie/index.html">Galerie</a>
+            </li>
+        </ul>
+    </div>
+    <main class="pozadi">
+        <h2>Fotka</h2>
+        <figure><img src="../media/froggo-wit-da-hat.jpg" alt="žabička s čepičkou" height="250" class="center">
+            <figcaption>Žába s cylindrem</figcaption>
+        </figure>
+        <h2>Video</h2>
+        <figure>
+            <video width="420" controls class="center">
+                <source src="../media/froggy-groove.mp4" type="video/mp4">
+                Vypadá to, že Váš prohlížeč nepodporuje tento formát.
+            </video>
+        </figure>
+        <h2>Audio</h2>
+        <figure>
+            <audio controls class="center">
+                <source src="../media/bongo-frogs.mp3" type="audio/mpeg">
+                Vypadá to, že Váš prohlížeč nepodporuje tento formát.
+            </audio>
+            <figcaption>Caterina Valente - Bongo Cha Cha Cha x kvákání žáb</figcaption>
+        </figure>
+        <h2>Video z YouTube</h2>
+        <figure>
+            <iframe width="420" height="236" src="https://youtu.be/T7Sj3nJtpb8" title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen class="center"></iframe>
+        </figure>
+    </main>
+    <footer>
+        <hr>
+        <p>&copy;Muchová B. IT1 - 2021</p>
+    </footer>
+</body>
+
+</html>
